@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Stanley";
+  src: url("../fonts/Stanley.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+body {
+  font-family: "Stanley";
+  font-size: 19px;
+  font-weight: normal;
+}
