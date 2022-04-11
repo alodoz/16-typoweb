@@ -58,12 +58,50 @@ font-style: normal; */
 }
 
 body {
-  font-family: "Stanley";
-  font-weight: normal;
+  font-family: barteldes-small, serif;
+  font-weight: 500;
+  font-style: normal;
   background-color: white;
   scroll-behavior: smooth;
   max-width: 375px;
 }
 
 header {
+  font-family: barteldes-small, serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+header h1 {
+  text-align: center;
+  margin: 2px;
+}
+
+header hr {
+  height: 2px;
+  background-color: #000000;
+  border: none;
+  padding: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+img {
+  width: 375px;
+}
+
+nav {
+  font-size: 20px;
+  margin: none;
 }
