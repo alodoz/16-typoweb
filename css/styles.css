@@ -57,13 +57,12 @@ font-style: normal; */
   font-style: normal;
 }
 
-body {
+html {
   font-family: barteldes-small, serif;
   font-weight: 500;
   font-style: normal;
   background-color: white;
   scroll-behavior: smooth;
-  max-width: 375px;
 }
 
 header {
@@ -104,4 +103,33 @@ img {
 nav {
   font-size: 20px;
   margin: none;
+}
+
+main h1 {
+  transform: rotate(-15deg);
+  text-align: center;
+  background-color: #000000;
+  margin-bottom: 60px;
+
+  /* position: absolute;
+  top: 86px 300px; */
+}
+
+.sitation {
+  transform: none;
+  margin-top: 60px;
+}
+
+.information {
+  background-color: #000000;
+  color: white;
+  margin: none;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+  padding: 35px 20px 120px 20px;
+}
+
+main a {
+  font-family: "Stanley";
+  color: white;
+  font-size: 13px;
 }
