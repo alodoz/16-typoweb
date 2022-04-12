@@ -76,6 +76,10 @@ a {
   color: #000000;
 }
 
+img {
+  max-width: 375px;
+}
+
 header h1 {
   text-align: center;
   margin: 2px;
@@ -94,10 +98,6 @@ header hr {
   align-items: center;
   justify-content: space-between;
   padding: 0px 10px;
-}
-
-img {
-  width: 375px;
 }
 
 nav {
@@ -132,4 +132,9 @@ main a {
   font-family: "Stanley";
   color: white;
   font-size: 13px;
+}
+
+.text-background {
+  position: relative;
+  top: -70px;
 }
