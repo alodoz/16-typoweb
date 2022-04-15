@@ -161,3 +161,34 @@ main a {
   top: -525px;
   padding: 150px 20px 50px 20px;
 }
+
+.image-barteldes {
+  clip-path: polygon(0 14%, 100% 45%, 100% 52%, 0 82%);
+  position: relative;
+  top: -675px;
+  z-index: 2;
+}
+
+input {
+  width: 298px;
+  font-family: barteldes-small, serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  background-color: #000000;
+  border: 2px solid;
+  padding: 20px 10px;
+  font-size: 18px;
+}
+
+.test-background {
+  background-color: #000000;
+  position: relative;
+  top: -900px;
+  padding: 150px 20px 165px 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+}
+
+.test-background h1 {
+  transform: rotate(-16deg);
+}
