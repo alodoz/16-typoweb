@@ -192,3 +192,16 @@ input {
 .test-background h1 {
   transform: rotate(-16deg);
 }
+
+footer {
+  position: relative;
+  top: -900px;
+  text-align: center;
+}
+
+footer hr {
+  height: 2px;
+  background-color: #000000;
+  border: none;
+  padding: none;
+}
